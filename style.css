@@ -1,0 +1,169 @@
+
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    /* Body */
+    body {
+    font-family: Arial, sans-serif;
+    background: #0b0f1a;
+    color: #eee;
+    }
+
+    /* Container */
+    .container {
+    width: 85%;
+    margin: auto;
+    }
+
+    /* Header */
+    header {
+    background: #0b0f1a;
+    border-bottom: 1px solid #222;
+    position: sticky;
+    top: 0;
+    }
+
+    header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    }
+
+    header h1 {
+    color: #00bcd4;
+    }
+
+    nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    }
+
+    nav a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 14px;
+    }
+
+    nav a:hover {
+    color: #00bcd4;
+    }
+
+    /* Hero */
+    .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(45deg, #020617, #111827);
+    }
+
+    .hero h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    }
+
+    .hero p {
+    color: #aaa;
+    margin-bottom: 20px;
+    }
+
+    .hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #00bcd4;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+
+    .hero button:hover {
+    opacity: 0.8;
+    }
+
+    /* Sections */
+    section {
+    padding: 50px 0;
+    }
+
+    section h2 {
+    margin-bottom: 20px;
+    color: #00bcd4;
+    }
+
+    /* Menu */
+    .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    }
+
+    .menu-item {
+    background: #111827;
+    padding: 15px;
+    border-radius: 8px;
+    transition: 0.2s;
+    }
+
+    .menu-item:hover {
+    transform: translateY(-4px);
+    }
+
+    .menu-item span {
+    color: #00bcd4;
+    }
+
+    /* Gallery */
+    .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+    }
+
+    .gallery img {
+    width: 100%;
+    border-radius: 6px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+    display: grid;
+    gap: 15px;
+    }
+
+    .testimonial {
+    background: #111827;
+    padding: 15px;
+    border-radius: 6px;
+    }
+
+    /* Form */
+    form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    }
+
+    form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    }
+
+    form button {
+    padding: 10px;
+    border: none;
+    background: #00bcd4;
+    cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+    text-align: center;
+    padding: 15px;
+    background: #020617;
+    margin-top: 20px;
+    font-size: 14px; 
+    }                                                 
